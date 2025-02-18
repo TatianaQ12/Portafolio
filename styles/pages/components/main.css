@@ -1,0 +1,22 @@
+body {
+  font-family: "Inter", sans-serif !important;
+  background-color: var(--bg-main) !important;
+}
+
+.row {
+  margin-right: 0 !important;
+}
+
+article {
+  padding-left: 80px;
+  padding-right:80px;
+  margin-left: 50px;
+  color: var(--color-font-white) !important;
+}
+
+
+.corp{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,49 @@
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.button-green {
+  background-color: var(--bg-color-button-green);
+  border: 1px solid var(--bg-color-button-green);
+  border-radius: 25px;
+  text-transform: uppercase;
+  padding: 12px;
+  color: var(--color-font-black);
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.button-green:hover {
+  background-color: var(--bg-color-button-green-hability);
+  transition: background-color 0.5s ease-in-out;
+}
+
+.circle {
+  font-size: 8px !important;
+}
+
+.button-black {
+  background-color: var(--bg-color-button-black);
+  padding: 8px;
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  color: var(--color-font-green);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none !important;
+}
+
+.button-black:hover {
+  background-color: var(--bg-color-button-black-hability);
+  transition: background-color 0.5s ease-in-out;
+}

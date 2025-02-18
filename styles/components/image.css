@@ -1,0 +1,18 @@
+.img-fluid {
+  max-width: 75% !important;
+  border-radius: 12px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+}
+
+.backimg{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: var(--bg-gray-card);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}

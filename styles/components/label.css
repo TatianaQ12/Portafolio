@@ -1,0 +1,33 @@
+.me {
+  font-size: 70px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.labelMe {
+  font-weight: 100;
+}
+
+.subTitle{
+    font-size: 45px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.titleBasic{
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.info {
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.infoText{
+  font-weight: 300;
+  font-size: 12px;
+}

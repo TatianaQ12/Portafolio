@@ -1,0 +1,14 @@
+@import url(settings/_settings.css);
+
+/* Componentes dentro del header, main y footer */
+@import url(pages/components/header.css);
+@import url(pages/components/main.css);
+
+/* Components  */
+@import url(components/buttons.css);
+@import url(components/image.css);
+@import url(components/label.css);
+
+
+/* Components pages */
+@import url(pages/pageProyectos.css);
