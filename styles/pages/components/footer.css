@@ -1,0 +1,6 @@
+footer{
+    color: var(--color-font-footer);
+    margin: 16px;
+    padding-left: 56px;
+    font-size: 12px;
+}

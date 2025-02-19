@@ -1,0 +1,8 @@
+.input-text{
+    background-color: var(--bg-gray-card);
+    border: 1px solid var(--bg-gray-card);
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+    color: var(--color-font-white);
+}

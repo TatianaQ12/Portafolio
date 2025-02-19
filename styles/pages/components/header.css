@@ -19,11 +19,7 @@ header {
   align-items: center;
 }
 
-.name{
-  font-size: 20px;
-  text-decoration: none;
-  color: var(--color-font-white);
-}
+
 
 .btn-menu {
   display: none;

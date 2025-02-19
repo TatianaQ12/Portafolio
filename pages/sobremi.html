@@ -1,11 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi portafolio</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--  -->
+    <script
+      src="https://kit.fontawesome.com/812c8ee19a.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--  -->
+    <script src="../js/jquery.js"></script>
+  </head>
+  <body>
+    <header id="header">
+      <nav class="menu">
+        <div class="logo">
+          <a href="../index.html" class="name"> Tatiana Quesquen</a>
+          <a href="#" class="btn-menu" id="btn-menu">
+            <i class="fa-solid fa-bars"></i>
+          </a>
+        </div>
+        <div class="enlaces" id="enlaces">
+          <a href="proyectos.html">Proyectos</a>
+          <a href="sobremi.html">Sobre mí</a>
+          <a href="contacto.html">Contacto</a>
+        </div>
+      </nav>
+    </header>
+
+    <br /><br /><br /><br />
+
+    <article>
+      <section class="row card-proyecto">
+        <section class="col-6">
+          <h1 class="subTitleGrand">Sobre mí</h1>
+        </section>
+
+        <section class="col-6">
+          <label class="titleBasic">
+            Soy una desarrolladora front-end radicado en Huacho, Lima. Tengo
+            formación en Ingeniería informática.
+          </label>
+          <p class="labelMe">
+            Soy una desarrolladora front-end radicado en Perú que busca
+            oportunidades interesantes. Me gusta enfocarme en la accesibilidad
+            al desarrollar. Me apasiona y siento curiosidad por resolver
+            problemas. Actualmente, desarrollo en Angular, React y un poco de
+            diseño. Cuando no programo, disfruto jugando voley y manejando
+            bicicleta. Estoy aprendiendo cada día más para mejorar mis
+            habilidades.
+          </p>
+
+          <div class="buttons">
+            <button class="button-green">
+              Descarga mi resumen <i class="fa-solid fa-circle circle"></i>
+            </button>
+            <a
+              class="button-black"
+              href="https://www.linkedin.com/in/tatiana-quesquen/"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a class="button-black" href="https://wa.link/1vmusx"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
+          </div>
+        </section>
+      </section>
+
+      <hr />
+
+      <section class="row card-proyecto">
+        <section class="col-6">
+          <h1 class="subTitleGrand">Mis capacidades</h1>
+        </section>
+
+        <section class="col-6">
+          <p class="labelMe">
+            Me apasiona el aprendizaje continuo y la evolución constante en el
+            mundo de la tecnología. Como desarrolladora Front-End, me mantengo
+            actualizada en las últimas tendencias, herramientas y frameworks
+            para crear experiencias digitales innovadoras, optimizadas y
+            atractivas. Enfrento cada desafío con determinación, combinando
+            creatividad, rendimiento y usabilidad para desarrollar interfaces
+            que realmente marquen la diferencia.
+          </p>
+
+          <div class="details">
+            <label class="card-label">html</label>
+            <label class="card-label">css</label>
+            <label class="card-label">javascript</label>
+            <label class="card-label">boostrap</label>
+            <label class="card-label">angular</label>
+            <label class="card-label">react</label>
+            <label class="card-label">tailwind</label>
+            <label class="card-label">figma</label>
+            <label class="card-label">sass</label>
+            <label class="card-label">wordpress</label>
+          </div>
+        </section>
+      </section>
+
+      <hr />
+
+      <section class="row card-proyecto">
+        <section class="col-6">
+          <h1 class="subTitleGrand">Mi experiencia</h1>
+        </section>
+
+        <section class="col-6">
+          <section>
+            <section class="sobremiExperiencia">
+              <label class="titleBasic"
+                >Analista Desarrollador Front-End Junior</label
+              >
+              <label class="labelMe">Abril 2024 - Presente</label>
+            </section>
+
+            <label class="name-empresa">LVL Consulting</label>
+
+            <p class="labelMe">
+              Reestructuré la plataforma de WhiteLion con React v16,
+              actualizándola para una versión más moderna. Lideré el desarrollo
+              de una plataforma APN con Angular, aplicando buenas prácticas de
+              diseño para una interfaz más intuitiva y un código escalable.
+              Implementé mejoras en la escalabilidad del código en diversos
+              proyectos, optimizando la eficiencia del equipo de desarrollo.
+              Además, desarrollé y mantuve interfaces responsivas, colaboré en
+              entornos ágiles con equipos multidisciplinarios y capacité a
+              nuevos desarrolladores para acelerar su integración y
+              productividad.
+            </p>
+          </section>
+
+          <section>
+            <section class="sobremiExperiencia">
+              <label class="titleBasic"
+                >Practicante de Desarrollo Back-End</label
+              >
+              <label class="labelMe">Enero 2024 - Marzo 2024</label>
+            </section>
+
+            <label class="name-empresa">Rimac Seguros y Reaseguros</label>
+
+            <p class="labelMe">
+              Desarrollé un módulo en Kotlin para la medición de productividad
+              de desarrolladores, implementando BDD y TDD para mejorar su
+              escalabilidad. Utilicé Cucumber para pruebas unitarias, consumí
+              API Rest y gestioné archivos Excel con la librería POI para
+              generar informes detallados.
+            </p>
+          </section>
+
+          <section>
+            <section class="sobremiExperiencia">
+              <label class="titleBasic"
+                >Practicante de desarrollo móvil y diseño UI/UX</label
+              >
+              <label class="labelMe">Febrero 2023 - Octubre 2023</label>
+            </section>
+
+            <label class="name-empresa">Innapsis SAS S.A.C.</label>
+
+            <p class="labelMe">
+              Diseñé las interfaces de usuario para las páginas web de Fractio,
+              Costamar SAC, Softnet Innapsis y Fractio, así como las interfaces
+              móviles de Costamar SAC y Fractio. Además, participé en el
+              desarrollo móvil y en proyectos web con Vue. Utilicé tecnologías
+              como HTML, CSS, React Native, Figma, Git, Scrum, Expo Go y Vue.
+            </p>
+          </section>
+        </section>
+      </section>
+
+    </article>
+
+    <script src="../js/headroom.min.js"></script>
+    <script src="../js/menu-flex.js"></script>
+  </body>
+
+  <footer>
+    ©2025 Tatiana Quesquen
+  </footer>
 </html>
